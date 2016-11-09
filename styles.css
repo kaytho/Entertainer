@@ -1,0 +1,19 @@
+body{
+  background-color: Black;
+  background-image: url(http://www.wallpaperandphoto.com/wp-content/uploads/2016/01/black_background_wood_clean-wallpaper-2560x1600.jpg);
+}
+
+h1{
+  font-size: 30px;
+  color: #ffffff;
+}
+h2{
+  color: red;
+}
+
+span{
+  color: gray;
+}
+img{
+  border-radius: 50%;
+}
