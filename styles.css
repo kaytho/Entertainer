@@ -1,24 +1,73 @@
 body{
   background-color: Black;
-  background-image: url(http://www.wallpaperandphoto.com/wp-content/uploads/2016/01/black_background_wood_clean-wallpaper-2560x1600.jpg);
-  display: inline-block;
-}
+  /*background-image: url('http://www.wallpaperandphoto.com/wp-content/uploads/2016/01/black_background_wood_clean-wallpaper-2560x1600.jpg');*/
+  /*background-image: url('http://www.texturex.com/albums/Metal-Textures/light%20brushed%20metal%20texture%20silver%20platinum%20stock%20wallpaper.jpg');*/
+  overflow-x:hidden;
+  width:100%;
+  top: 0;
+  left:0;
+  margin: 0;
+  gradient: .5;
 
+}
+Nav{
+  top: 0;
+  display:inline-block;
+  /*padding-top: 0;*/
+  margin: 0;
+  height: 30px;
+  width: 100%;
+  background-color: white;
+  opacity: .30;
+}
 h1{
-  font-size: 30px;
+  font-size: 70px;
   color: #ffffff;
+  text-align: center;
 }
 h2{
   color: red;
+  text-align: center;
+  font-size: 25px;
 }
 
 span{
   color: gray;
 }
 img{
-  margin-top: 200px;
+  margin: auto;
+  margin-top: 100px;
+  display: block;
   border: solid gray;
-  border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  /*border-radius: 50%;*/
+  height: 500px;
+  width: 500px;
+}
+
+#Services{
+  margin-top: 300px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#Services ul{
+  color: white;
+}
+
+a{
+  color: red;
+}
+p{
+  /*padding-top: 100px;*/
+  margin-top: 100px;
+  border: solid black;
+  position: absolute;
+  display: inline-block;
+  margin-left: 300px;
+  width: 700px;
+  height: 200px;
 }
