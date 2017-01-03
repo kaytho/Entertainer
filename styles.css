@@ -20,7 +20,6 @@ nav{
   font-size: 20px;
 }
 #footer{
-  margin-top: 50px;
   height:50px;
   width: 100%;
   display: inline-flex;
@@ -30,19 +29,13 @@ nav{
 }
 
 #footer span{
-  font-size: 30px;
   color: red;
 }
 #footer h1{
   margin-left: 0;
   font-size: 30px;
 }
-/*#footer h2{
-  margin-left:200px;
-}
-#footer h3{
-  margin-left: 750px;
-}*/
+
 #namesquare{
   margin: auto;
   background-color: black;
@@ -63,26 +56,76 @@ nav{
   color: #ffffff;
   margin: auto;
   text-align: center;
-;
 }
 #namesquare img{
   height: 800px;
   width: 1200px;
 }
 
-#homepage h2{
-  text-align: center;
-  color: white;
-  font-size: 40px;
 
+
+
+
+
+
+
+
+
+#about{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+#about img{
+  height: 400px;
+  width: 200px;
+}
+#about h1{
+  font-size:50px;
+  text-align: center;
+  padding-bottom: 100px;
+  text-decoration: underline;
+}
+#about #footer{
+  height:50px;
+  width: 100%;
+  display: inline-flex;
+  color:white;
+  background-color: gray;
+}
+#about #footer h1{
+  margin-left: 0;
+  font-size: 30px;
+}
+#about #footer span{
+  color: red;
+}
+#about #namesquare img{
+  height: 800px;
+  width: 1200px;
+}
+
+
+
+#homepage{
+  width: auto;
+}
+#homepage img{
+  height: 400px;
+  width: 400px;
 }
 #homepage #line{
   border-bottom: solid gray 1px;
 }
-
-#homepage img{
-  height: 400px;
-  width: 400px;
+#homepage p{
+  text-align: right;
+  padding-bottom: 50px;
+}
+#homepage h2{
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
 #homepage h3{
   color: white;
@@ -90,7 +133,239 @@ nav{
   text-align: center;
   padding-bottom: 100px;
 }
-#homepage p{
-  text-align: right;
+#homepage #namesquare img{
+  height: 800px;
+  width: 1200px;
+}
+#homepage #footer{
+  height:50px;
+  width: 100%;
+  display: inline-flex;
+  color:white;
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+#themovement {
+  background-color: red;
+  text-align: center;
+  width: auto;
+}
+#themovement p{
+  font-size: 20px;
+}
+#themovement ul{
+  font-size: 30px;
+}
+#themovement h1{
+  color: black;
+  font-size: 50px;
+  text-decoration:underline;
   padding-bottom: 50px;
+}
+#themovement img{
+  height: 400px;
+  width: 200px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  bottom:0;
+}
+#themovement #namesquare img{
+  height: 800px;
+  width: 1200px;
+}
+#services #footer{
+  height:50px;
+  width: 100%;
+  display: inline-flex;
+  color:white;
+  background-color: #121212;
+  padding-top: 0;
+  margin-top: 0;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+#themime{
+  text-align: center;
+  width: auto;
+}
+#themime p{
+  font-size: 20px;
+}
+#themime ul{
+  font-size: 30px;
+}
+#themime h1{
+  color: gray;
+  font-size: 50px;
+  text-decoration: underline;
+  padding-bottom: 50px;
+}
+#themime img{
+  height: 400px;
+  width: 200px;
+  padding-top: 0;
+}
+#themime #footer{
+  background-color: black;
+  height:50px;
+  width: 100%;
+  display: inline-flex;
+  color:white;
+  font-size: 30px;
+}
+#themime #namesquare img{
+  height: 800px;
+  width: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+#themanakin{
+  text-align: center;
+  width: auto;
+  background-color: gray;
+}
+#themanakin p{
+  font-size: 20px;
+}
+#themanakin ul{
+  font-size: 30px;
+}
+#themanakin h1{
+  color: black;
+  font-size: 50px;
+  text-decoration: underline;
+  padding-bottom: 50px;
+}
+#themanakin img{
+  height: 400px;
+  width: 200px;
+  padding-top: 0;
+}
+#themanakin nav{
+  background-color: black;
+}
+#services #themanakin #footer{
+  height:50px;
+  width: 100%;
+  background-color: #121212;
+  color:white;
+  display: inline-flex;
+}
+#services #themanakin #footer h1{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+#services #themanakin #footer span{
+  color: red;
+}
+#themanakin #namesquare img{
+  height: 800px;
+  width: 1200px;
+}
+
+
+
+
+
+
+
+
+#programs{
+  background-color: white;
+  color: black;
+  width: auto;
+}
+#programs #namesquare img{
+  height: 800px;
+  width: 1200px;
+}
+#programs #footer{
+  /*margin-top: 50px;*/
+  height:50px;
+  width: 100%;
+  color:white;
+  background-color: gray;
+  display: inline-flex;
+}
+
+#programs img{
+  height: 300px;
+  width: 600px;
+}
+#programs .row .col-md-6 {
+  margin: 0px;
+  min-height: 300px;
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#programs .row{
+  border-bottom: 1px solid #121212;
+}
+
+
+
+
+#contact{
+  background-color: white;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/105/287/original/free-suspenders-vector.jpg');
+  text-align: center;
+  width: auto;
+  height: 1200px;
+  font-size: 50px;
+  color: red;
+}
+#contact h1{
+  font-size: 75px;
+  padding-bottom: 75px;
+}
+#contact #social{
+  border: red 3px dashed;
+  background-color: black;
+  opacity: .80;
+  width: 400px;
+  margin: auto;
+}
+#contact #footer{
+  margin-top: 50px;
+  height:50px;
+  width: 100%;
+  display: inline-flex;
+  color:white;
+  background-color: gray;
+}
+#contact #namesquare img{
+  height: 800px;
+  width: 1200px;
+}
+
+a{
+  color: white;
 }
