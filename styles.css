@@ -175,9 +175,9 @@ nav{
   text-decoration:underline;
   padding-bottom: 50px;
 }
-#themovement img{
-  height: 400px;
-  width: 200px;
+#themovement img[alt*=movementpage]{
+  height: 500px;
+  width: 800px;
   padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -222,10 +222,11 @@ nav{
   text-decoration: underline;
   padding-bottom: 50px;
 }
-#themime img{
+#themime img[alt*=mimepage]{
   height: 400px;
-  width: 200px;
+  width: 400px;
   padding-top: 0;
+  margin-left: 500px;
 }
 #themime #footer{
   background-color: black;
@@ -266,10 +267,12 @@ nav{
   text-decoration: underline;
   padding-bottom: 50px;
 }
-#themanakin img{
-  height: 400px;
-  width: 200px;
+#themanakin img[alt *=manakinpage]{
+  height: 600px;
+  width: 400px;
   padding-top: 0;
+  margin-left: -200px;
+
 }
 #themanakin nav{
   background-color: black;
